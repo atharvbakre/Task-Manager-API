@@ -3,6 +3,8 @@
 [Task Manager API](shadow-task-manager.herokuapp.com)
 Used to store and fetch Users tasks and their status.
 
+Using Node.js, Express.js, Mongoose ODM, MongoDB.
+
 To run:
 1. Install Node modules using: **npm install**
 2. Run using the dev script: **npm run dev**
