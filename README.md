@@ -1,6 +1,6 @@
 # Task-Manager-API
 
-[Task Manager API](shadow-task-manager.herokuapp.com)
+[Task Manager API](https://shadow-task-manager.herokuapp.com)
 Used to store and fetch Users tasks and their status.
 
 Using Node.js, Express.js, Mongoose ODM, MongoDB.
