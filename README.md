@@ -4,10 +4,8 @@
 Used to store and fetch Users tasks and their status.
 
 To run:
-1. Install Node modules using 
-   npm install
-2. Run using the dev script
-   npm run dev
+1. Install Node modules using: **npm install**
+2. Run using the dev script: **npm run dev**
    
 Use Postman to execute the requests.   
 
