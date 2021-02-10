@@ -13,7 +13,7 @@ Use Postman to execute the requests.
 
 ## Users
    
-**Create User**
+**Create User**  
 POST request '/users'
   Body containing name, email and password as they are required fields, and age as an optional field.
   A welcome mail would be sent to the email id mentioned.
@@ -22,60 +22,60 @@ POST request '/users'
 POST request '/users/login'
   Body containing email and password.
   
-**User Avatar**
+**User Avatar**  
 POST request '/users/me/avatar'
   Body containing form-data with key=value pair avatar=FILE_NAME.
   
-**User Logout**
+**User Logout**  
 POST request '/users/logout'
   Logout from current session.
   Authentication is required i.e. must be logged in.
   
-**User Logout All**
+**User Logout All**  
 POST request '/users/logoutAll'
   Logout from all active sessions.
   Authentication is required i.e. must be logged in.
-  
-**User Profile**
+   
+**User Profile**  
 GET request '/users/me'
 
-**User Avatar**
+**User Avatar**  
 GET request '/users/:id/avatar'
   Get avatar by user id.
   
-**Update User Profile**
+**Update User Profile**  
 PATCH request '/users/me'
   Body containing valid fields to update.
   
-**Delete User Avatar**
+**Delete User Avatar**  
 DELETE request '/users/me/avatar'
   Authentication required i.e. must be logged in.
   
-**Delete User**
+**Delete User**  
 DELETE request '/users/me'
   Authentication required i.e. must be logged in.
   A mail regarding closing would be sent to mentioned email id.
   
 ## Tasks
-
-**Create Task**
+ 
+**Create Task**  
 POST request '/tasks'
   Body containing description and completed, completed is optional by default false.
 
-**Get Task by ID**
+**Get Task by ID**  
 GET request '/tasks/:id'
   Get Task by the parameter passed as id.
   
-**Get Tasks**
+**Get Tasks**  
 GET request '/tasks'
   Get all the tasks.
   Furthermore filter, and limit could be added by passing them as query.
   
-**Update Task**
+**Update Task**  
 PATCH request '/tasks/:id'
   Body containing valid fields to update.
   Update task using id.
   
-**Delete Task**
+**Delete Task**  
 DELETE request 'tasks/:id'
   Delete task using id.
